@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#gameBoard {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: rgb(236, 52, 104);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.border {
+    border: 1px solid #000;
+}
+
+#status {
+    font-size: 25px;
+}
+
+.btn{
+    background-color: rgb(23, 20, 23);
+}
+
+.tic{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
